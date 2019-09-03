@@ -156,3 +156,29 @@ button {
     font: 13px 'nyt-franklin', helvetica, arial, sans-serif;
     font-weight: bold;
 }
+
+#free-articles {
+    display: block;
+    text-align: center;
+}
+
+#free-articles > p {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;  
+}
+
+#bottom-hr {
+    margin-top: 20px;
+}
+
+hr {
+    width: 75px;
+}
+
+#create {
+    color: #326891;
+    font-weight: bold;
+    font: 17px;
+}
