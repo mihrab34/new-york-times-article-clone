@@ -1,3 +1,9 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -39,7 +45,7 @@ html, body {
     cursor: pointer;
 }
 
-.nav {
+.sub-log {
     position: absolute;
     top: 0;
     right: 20px;    
@@ -81,9 +87,61 @@ button {
     font: 40px 'nyt-cheltenham', geogia;
     font-weight: 700;
     font-style: italic;
+    margin-left: 200px;
 }
 
 .smoking-gun > img {
     width: 945px;
     height: 531.55px;
+}
+
+.fragment {
+    position: relative;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.fragment > p {
+    font: 20px 'nyt-imperial', georgia, 'times new roman', times, serif;
+    color: #333333;
+    line-height: 1.6em;
+}
+
+.fragment > h5 {
+    position: relative;
+    top: 10px;
+    left: 0;
+}
+
+.fragment > nav {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    /* padding-left: 10px; */
+}
+
+#science {
+    max-width: 190px;
+    position: absolute;
+    top: 360px;
+    right: -260px;
+    
+}
+
+#science > h4 {
+    font: 18px 'nyt-franklin', helvetica, arial, sans-serif;
+    font-weight: bold;
+}
+
+#science > p {
+    font: 13px 'nyt-franklin', helvetica, arial, sans-serif;
+    color: #666666;
+    margin-top: -15px;
+}
+
+#science button {
+    padding: 8px 65px;
+    margin-left: 0;
+    font: 13px 'nyt-franklin', helvetica, arial, sans-serif;
+    font-weight: bold;
 }
