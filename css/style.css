@@ -95,11 +95,11 @@ button {
     height: 531.55px;
 }
 
-.fragment {
+ .fragment {
     position: relative;
     max-width: 600px;
     margin: 10px auto;
-}
+} 
 
 .fragment > p {
     font: 20px 'nyt-imperial', georgia, 'times new roman', times, serif;
@@ -107,6 +107,19 @@ button {
     line-height: 1.6em;
 }
 
+.fragment > h4 {
+  margin-top: 70px;
+  font: 17px 'nyt-imperial', georgia, 'times new roman', times, serif;
+  font-weight: bold;
+}
+
+#author-name {
+  text-decoration: underline #ced1cd;
+}
+
+#author-name:hover {
+  text-decoration: none;
+}
 .fragment > h5 {
     position: relative;
     top: 10px;
@@ -116,16 +129,14 @@ button {
 .fragment > nav {
     position: absolute;
     top: 50px;
-    right: 20px;
-    /* padding-left: 10px; */
+    right: 50px;
+    
 }
-
-#science {
+ #science {
     max-width: 190px;
     position: absolute;
     top: 360px;
-    right: -260px;
-    
+    right: -260px; 
 }
 
 #science > h4 {
