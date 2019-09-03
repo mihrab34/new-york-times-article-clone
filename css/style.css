@@ -173,7 +173,8 @@ button {
     margin-top: 20px;
 }
 
-hr {
+#top-hr,
+#bottom-hr{
     width: 75px;
 }
 
@@ -181,4 +182,30 @@ hr {
     color: #326891;
     font-weight: bold;
     font: 17px;
+}
+
+.editors-pick {
+  display: block;
+  max-width: 230px;
+  position: absolute;
+  bottom: -1600px;
+  left: 1020px; 
+}
+
+.editors-pick > p {
+  border-bottom: 1px solid #cccaca;
+  padding-bottom: 10px;
+}
+
+.div-img {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.editors-img {
+  width: 70px;
+  height: 70px;
+  float: left; 
+  margin-right: 10px;
+  margin-top: -10px;
 }
