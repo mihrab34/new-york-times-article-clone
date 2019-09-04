@@ -273,3 +273,38 @@ button {
 .text-link:hover {
     text-decoration: none;
 }
+
+#video-link {
+    width: 600px; 
+    height:319px;
+    margin-top: 30px;
+    margin-bottom: 7px;
+
+}
+
+#professor {
+    color: #666;
+    font: 16px 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+#standford {
+    color: #666;
+    font: 14px 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+#telescope {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+#bicep-telescope {
+    color: #666;
+    font: 16px 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+#associate {
+    color: #666;
+    font: 14px 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
