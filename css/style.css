@@ -29,7 +29,8 @@ html, body {
     cursor: pointer;
 }
 
-.space:hover {
+.space:hover, 
+#order > a:hover {
     text-decoration: underline;
 }
 
@@ -189,7 +190,7 @@ button {
   max-width: 230px;
   position: absolute;
   bottom: -1600px;
-  left: 1020px; 
+  left: 1045px; 
 }
 
 .editors-pick > p {
@@ -307,4 +308,56 @@ button {
 #associate {
     color: #666;
     font: 14px 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+#order {
+    color: #999;
+    font: 12px 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
+#order > a {
+    color: #999;
+    font: 11px 'nyt-franklin', helvetica, arial, sans-serif;
+    border-right: solid #999 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#comment-link {
+    margin-top: 30px;
+}
+
+#comment-link > button {
+    font: 13px 'nyt-franklin', helvetica, arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 100px;
+    margin-left: 0;
+    background: #6288A5;
+    border: solid #6288A5 1px;
+    margin-right: 50px;
+}
+
+#comment-link > button:hover {
+    background: #326891;
+}
+
+#nav {
+    margin-right: 0;
+}
+
+.more-cosmos {
+    max-width: 895px; 
+    margin-left: 50px
+
+}
+
+.cosmos-div {
+    display: inline-block;
+    width: 30%;
+    margin-right: 25px;
+}
+
+.cosmos-div img {
+    width: 280px;
+    height: 180px;
 }
