@@ -12,7 +12,7 @@ html, body {
 
 .header-wrapper {
     background: transparent;
-    position: relative;
+    position: sticky;
     height: 55px;
     border-bottom: 1px solid #ccc;
 }
@@ -98,7 +98,7 @@ button {
  .fragment {
     position: relative;
     max-width: 600px;
-    margin: 10px auto;
+    margin: 50px auto;
 } 
 
 .fragment > p {
@@ -217,7 +217,7 @@ button {
 }
 
 #inflation > img {
-    width: 960px;
+    width: 930px;
     height: 500px;
 }
 
@@ -225,24 +225,51 @@ button {
     position: absolute;
     top: 200px;
     left: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#big-div-2 {
+    position: absolute;
+    top: 470px;
+    left: 0;
 }
 
 .inflation-msg {
     width: 228px;
     float: left;
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'nyt-franklin', arial, helvetica, sans-serif;
+    color: #474646;
+    line-height: 1.4em;
+    
 }
 
 .bold-text {
     font-family: 'nyt-franklin', arial, helvetica, sans-serif;
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 10px;
+    font-weight: 1000;
     letter-spacing: .05em;
     text-transform: uppercase;
+    color: #000000;
+}
+#inflation-hr {
+    width: 70px; 
+    margin-top: 60px;
+    margin-left: 0;
 }
 
-#coffee {
-    margin-right: 0;
+#inflation-cap {
+    color: #474646;
+    font: 13px 'nyt-franklin', arial, helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.text-link {
+    color: #326891;
+    text-decoration: underline #326891;
+}
+.text-link:hover {
+    text-decoration: none;
 }
