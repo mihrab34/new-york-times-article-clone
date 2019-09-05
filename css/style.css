@@ -30,7 +30,8 @@ html, body {
 }
 
 .space:hover, 
-#order > a:hover {
+#order > a:hover,
+.more > h3:hover {
     text-decoration: underline;
 }
 
@@ -343,4 +344,57 @@ button {
 
 #nav {
     margin-right: 0;
+}
+
+.more {
+    max-width: 900px;
+    margin-left: 50px;
+}
+
+.more > h3 {
+    font: 16px 'nyt-franklin', helvetica, arial, sans-serif;
+    color: #000;
+    font-weight: bold;
+    border-top: solid #000 1px;
+}
+
+.parent-div {
+    max-width: 900px;
+}
+
+.inline-images {
+    max-width: 280px;
+    /* padding: 0px 0px 50px 0px; */
+    margin-bottom: 50px;
+    float: left;
+    margin-right: 30px;
+}
+
+.inline-images > img {
+    width: 280px;
+    height: 182px;
+
+}
+
+.mars {
+    margin-right: 0;
+    float: right;
+}
+
+.small-1 {
+    float: right;
+    font: 11px 'nyt-imperial', georgia, 'times new roman', times, serif;
+    color: #666;
+}
+
+.small-2 {
+    float: left;
+    font: 11px 'nyt-imperial', georgia, 'times new roman', times, serif;
+    color: #666;
+}
+
+.inline-images > p {
+    font: 18px 'nyt-cheltenham', georgia, "times new roman", times, serif;
+    line-height: 22px;
+    color: #121212;
 }
