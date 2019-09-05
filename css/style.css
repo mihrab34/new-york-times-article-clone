@@ -362,6 +362,7 @@ button {
     font: 16px 'nyt-franklin', helvetica, arial, sans-serif;
     color: #000;
     font-weight: bold;
+    
 }
 
 .parent-div {
@@ -411,4 +412,24 @@ button {
 
 #edit-hr {
     width: 900px;
+}
+
+.big-wrapper {
+    position: relative;
+}
+
+.most-popular {
+    width: 350px;
+    position: absolute;
+    top: -22px;
+    right: 20px;
+    /* background: #326891; */
+}
+
+.most-popular h4 {
+    border-top: 1px solid #121212;
+    border-bottom: 1px solid #666;
+    padding-top: 20px;
+    color: #313131;
+    font: 16px bold 'nyt-franklin', helvetica, arial, sans-serif;
 }
