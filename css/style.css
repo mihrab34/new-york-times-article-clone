@@ -419,17 +419,38 @@ button {
 }
 
 .most-popular {
-    width: 350px;
+    width: 300px;
     position: absolute;
     top: -22px;
-    right: 20px;
-    /* background: #326891; */
+    right: 60px;
 }
 
 .most-popular h4 {
     border-top: 1px solid #121212;
-    border-bottom: 1px solid #666;
     padding-top: 20px;
     color: #313131;
     font: 16px bold 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
+.popular-line {
+    border-top: solid rgb(223, 215, 215) 1px;
+    padding-top: 15px;
+    font: 17px 'nyt-cheltenham', georgia, "times new roman", times, serif;
+    color: #121212;
+    font-weight: bold;
+
+}
+
+.popular-line :hover {
+    color: #999;
+}
+
+#final {
+    width: 1250px;
+    height: 300px;
+    margin: 360px auto 200px;
+}
+
+#hr-1 {
+    margin-bottom: -8px;
 }
