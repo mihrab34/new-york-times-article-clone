@@ -349,11 +349,9 @@ button {
     max-width: 900px; 
     margin-left: 50px;
     border-top: solid #121112 1px;
-
 }
 
 .cosmos-div {
-    /* display: inline-block; */
     float: left;
     width: 30%;
     margin-right: 40px;
@@ -377,7 +375,7 @@ button {
 .small-1 {
     float: right;
     color: #666;
-    font: 13px 'nyt-imperial', georgia, 'times new roman', times, serif;
+    font: 11px 'nyt-imperial', georgia, 'times new roman', times, serif;
 }
 
 .small-2 {
