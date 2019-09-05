@@ -348,6 +348,9 @@ button {
 .more-cosmos {
     max-width: 900px; 
     margin-left: 50px;
+    border-top: 1px solid #121212;
+    border-bottom: 1px solid #121212;
+    height: 700px;
 }
 
 .parent-div {
@@ -389,3 +392,8 @@ button {
 .small-2 {
     color: #666;
 }
+
+/* #edit-pick { /
+    float: left;
+    /* margin-left: -120px;} */
+
