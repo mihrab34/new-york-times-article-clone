@@ -30,12 +30,7 @@ html, body {
 }
 
 .space:hover, 
-<<<<<<< HEAD
-#order > a:hover,
-.more > h3:hover {
-=======
 #order > a:hover {
->>>>>>> b559b76d1133c9a133eafd6c4f8fed2ba013b08b
     text-decoration: underline;
 }
 
@@ -350,73 +345,41 @@ button {
     margin-right: 0;
 }
 
-<<<<<<< HEAD
-.more {
-    max-width: 900px;
-    margin-left: 50px;
-}
-
-.more > h3 {
-    font: 16px 'nyt-franklin', helvetica, arial, sans-serif;
-    color: #000;
-    font-weight: bold;
-    border-top: solid #000 1px;
-}
-
-.parent-div {
-    max-width: 900px;
-}
-
-.inline-images {
-    max-width: 280px;
-    /* padding: 0px 0px 50px 0px; */
-    margin-bottom: 50px;
-    float: left;
-    margin-right: 30px;
-}
-
-.inline-images > img {
-    width: 280px;
-    height: 182px;
-
-}
-
-.mars {
-    margin-right: 0;
-    float: right;
-}
-
-.small-1 {
-    float: right;
-    font: 11px 'nyt-imperial', georgia, 'times new roman', times, serif;
-    color: #666;
-}
-
-.small-2 {
-    float: left;
-    font: 11px 'nyt-imperial', georgia, 'times new roman', times, serif;
-    color: #666;
-}
-
-.inline-images > p {
-    font: 18px 'nyt-cheltenham', georgia, "times new roman", times, serif;
-    line-height: 22px;
-    color: #121212;
-=======
 .more-cosmos {
-    max-width: 895px; 
-    margin-left: 50px
+    max-width: 900px; 
+    margin-left: 50px;
+    border-top: solid #121112 1px;
 
 }
 
 .cosmos-div {
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
     width: 30%;
-    margin-right: 25px;
+    margin-right: 40px;
+    margin-bottom: 50px;
 }
 
 .cosmos-div img {
     width: 280px;
     height: 180px;
->>>>>>> b559b76d1133c9a133eafd6c4f8fed2ba013b08b
+}
+
+.cosmos-div > a > p:hover {
+    color: #666;
+}
+
+.right {
+    float: right;
+    margin-right: 0;
+}
+
+.small-1 {
+    float: right;
+    color: #666;
+    font: 13px 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+.small-2 {
+    color: #666;
 }
