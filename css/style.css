@@ -348,7 +348,15 @@ button {
 .more-cosmos {
     max-width: 900px; 
     margin-left: 50px;
-    border-top: solid #121112 1px;
+}
+
+.parent-div {
+    max-width: 900px;
+    /* margin-left: 50px; */
+}
+
+.more-cosmos > h3 {
+    margin-left: 0;
 }
 
 .cosmos-div {
