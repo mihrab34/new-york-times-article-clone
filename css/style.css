@@ -345,55 +345,70 @@ button {
     margin-right: 0;
 }
 
-.more-cosmos {
-    max-width: 900px; 
+.more {
+    max-width: 900px;
     margin-left: 50px;
-    border-top: 1px solid #121212;
-    border-bottom: 1px solid #121212;
-    height: 700px;
+}
+
+.more > h3 {
+    font: 16px 'nyt-franklin', helvetica, arial, sans-serif;
+    color: #000;
+    font-weight: bold;
+    border-top: solid #000 1px;
+    padding-top: 20px;
+}
+
+.more > h4 {
+    font: 16px 'nyt-franklin', helvetica, arial, sans-serif;
+    color: #000;
+    font-weight: bold;
 }
 
 .parent-div {
     max-width: 900px;
-    /* margin-left: 50px; */
 }
 
-.more-cosmos > h3 {
-    margin-left: 0;
-}
-
-.cosmos-div {
-    float: left;
-    width: 30%;
-    margin-right: 40px;
+.inline-images {
+    max-width: 280px;
+    /* height: 300px; */
     margin-bottom: 50px;
+    float: left;
+    margin-right: 30px;
 }
 
-.cosmos-div img {
+.inline-images img {
     width: 280px;
-    height: 180px;
+    height: 182px;
+
 }
 
-.cosmos-div > a > p:hover {
-    color: #666;
-}
-
-.right {
-    float: right;
+.mars {
     margin-right: 0;
+    float: right;
 }
 
 .small-1 {
     float: right;
-    color: #666;
     font: 11px 'nyt-imperial', georgia, 'times new roman', times, serif;
+    color: #666;
 }
 
 .small-2 {
+    float: left;
+    font: 11px 'nyt-imperial', georgia, 'times new roman', times, serif;
     color: #666;
 }
 
-/* #edit-pick { /
-    float: left;
-    /* margin-left: -120px;} */
+.inline-images > p {
+    font: 18px 'nyt-cheltenham', georgia, "times new roman", times, serif;
+    line-height: 22px;
+    color: #121212;
+}
 
+.inline-images p:hover {
+    color: #666;
+}
+
+#edit-hr {
+    width: 900px;
+}
