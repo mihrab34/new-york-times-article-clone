@@ -30,8 +30,12 @@ html, body {
 }
 
 .space:hover, 
+<<<<<<< HEAD
 #order > a:hover,
 .more > h3:hover {
+=======
+#order > a:hover {
+>>>>>>> b559b76d1133c9a133eafd6c4f8fed2ba013b08b
     text-decoration: underline;
 }
 
@@ -346,6 +350,7 @@ button {
     margin-right: 0;
 }
 
+<<<<<<< HEAD
 .more {
     max-width: 900px;
     margin-left: 50px;
@@ -397,4 +402,21 @@ button {
     font: 18px 'nyt-cheltenham', georgia, "times new roman", times, serif;
     line-height: 22px;
     color: #121212;
+=======
+.more-cosmos {
+    max-width: 895px; 
+    margin-left: 50px
+
+}
+
+.cosmos-div {
+    display: inline-block;
+    width: 30%;
+    margin-right: 25px;
+}
+
+.cosmos-div img {
+    width: 280px;
+    height: 180px;
+>>>>>>> b559b76d1133c9a133eafd6c4f8fed2ba013b08b
 }
