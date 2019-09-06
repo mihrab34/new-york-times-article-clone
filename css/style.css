@@ -96,6 +96,10 @@ button {
     height: 531.55px;
 }
 
+.smoking-gun > p {
+    margin-top: -5px;
+}
+
 .fa {
     margin-right: 20px;
 }
@@ -205,6 +209,10 @@ button {
 .div-img {
   display: inline-block;
   margin-top: 20px;
+}
+
+.div-img > a > p {
+    margin-top: -6px;
 }
 
 .editors-img {
@@ -480,8 +488,12 @@ button {
 
 .last-lists {
     float: left;
-    margin-right: 90px;
+    margin-left: 90px;
     margin-top: -12px;
+}
+
+#lists-id {
+    margin-left: 0;
 }
 
 .footer-nav > a {
@@ -522,4 +534,8 @@ button {
 #education {
     border-bottom: solid #999 1px;
     padding-bottom: 10px;
+}
+
+.footer-img {
+    margin-right: 20px; 
 }
