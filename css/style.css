@@ -448,9 +448,16 @@ button {
 #final {
     width: 1250px;
     height: 300px;
-    margin: 360px auto 200px;
+    margin-top: 360px; 
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #hr-1 {
     margin-bottom: -8px;
+}
+
+.last-list > a {
+    display: block;
+    /* float: left; */
 }
