@@ -96,6 +96,10 @@ button {
     height: 531.55px;
 }
 
+.fa {
+    margin-right: 20px;
+}
+
  .fragment {
     position: relative;
     max-width: 600px;
@@ -341,6 +345,10 @@ button {
     background: #326891;
 }
 
+.social-nav {
+    float: right;
+}
+
 #nav {
     margin-right: 0;
 }
@@ -448,32 +456,41 @@ button {
 #final {
     width: 1250px;
     height: 300px;
-    margin-top: 360px; 
-    margin-right: auto;
-    margin-left: auto;
+    margin: 360px auto 100px;
 }
 
 #hr-1 {
     margin-bottom: -8px;
 }
 
-#final > h2 {
+#go-home > h2 {
     margin-top: -5px;
-    font: 30px 'Charm', cursive;
+    font: 20px 'Charm', cursive;
     text-transform: capitalize;
     font-weight: 800;
     letter-spacing: 0.9px;
 }
 
+#go-home > a {
+    float: right;
+    margin-top: -43px;
+    font-size: 12px;
+    color: #326891;
+}
+
 .last-lists {
     float: left;
     margin-right: 90px;
-    margin-top: -25px;
+    margin-top: -12px;
 }
 
 .footer-nav > a {
     display: block;
     margin-bottom: 10px;
+}
+
+.footer-nav > a:hover {
+    text-decoration: underline;
 }
 
 .last-lists h3 {
@@ -482,4 +499,27 @@ button {
     font-size: 13px;
     font-weight: 1000;
     font-family: nyt-franklin;
+}
+
+#end-nav {
+    border-left: solid #999 1px;
+    padding-left: 15px; 
+}
+
+.special-1 {
+ font-weight: bolder;
+ font-size: 16px;
+}
+
+.special-2 {
+    font-size: 11px; 
+}
+
+#cooking {
+    margin-bottom: 25px;
+}
+
+#education {
+    border-bottom: solid #999 1px;
+    padding-bottom: 10px;
 }
