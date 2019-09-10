@@ -350,23 +350,23 @@ button {
     font: 14px 'nyt-imperial', georgia, 'times new roman', times, serif;
 }
 
-.footer-nav > a {
+.f-nav {
     display: block;
     margin-bottom: 10px;
 }
 
-.footer-nav > a:hover {
+.f-nav:hover {
     text-decoration: underline;
 }
 
-#go-home > a {
+.homepage {
     float: right;
     margin-top: -43px;
     font-size: 12px;
     color: #326891;
 }
 
-#order > a {
+.sub-link {
     color: #999;
     font: 11px 'nyt-franklin', helvetica, arial, sans-serif;
     border-right: solid #999 1px;
@@ -374,7 +374,7 @@ button {
     padding-right: 4px;
 }
 
-#order > a:hover {
+.sub-link:hover {
     color: #999;
     font: 12px 'nyt-franklin', helvetica, arial, sans-serif;
 }
