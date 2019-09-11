@@ -36,7 +36,8 @@ a {
 }
 
 .space:hover,
-#order > a:hover {
+.more > h3:hover,
+.more > h4:hover {
     text-decoration: underline;
 }
 
@@ -198,6 +199,10 @@ button {
     font-weight: bold;
 }
 
+#science button:hover {
+  background: #326891;
+}
+
 #free-articles {
     display: block;
     text-align: center;
@@ -244,6 +249,10 @@ button {
     float: left;
     margin-right: 10px;
     margin-top: -10px;
+}
+
+.div-img:hover {
+  text-decoration: underline;
 }
 
 #inflation {
@@ -374,9 +383,14 @@ button {
     padding-right: 4px;
 }
 
+#order {
+  color: #999;
+  font: 11px 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
 .sub-link:hover {
     color: #999;
-    font: 12px 'nyt-franklin', helvetica, arial, sans-serif;
+    text-decoration: underline;
 }
 
 #comment-link {
@@ -476,7 +490,7 @@ button {
 #final {
     width: 1250px;
     height: 300px;
-    margin: 360px auto 100px;
+    margin: 360px auto 250px;
 }
 
 #hr-1 {
@@ -485,7 +499,7 @@ button {
 
 #go-home > h2 {
     margin-top: -5px;
-    font: 20px 'nyt-cheltenham', georgia, "times new roman", times, serif;
+    font: 20px 'Charm', cursive;
     text-transform: capitalize;
     font-weight: 800;
     letter-spacing: 0.9px;
