@@ -35,9 +35,7 @@ a {
     color: black;
 }
 
-.space:hover,
-.more > h3:hover,
-.more > h4:hover {
+.space:hover {
     text-decoration: underline;
 }
 
@@ -162,11 +160,6 @@ button {
     font: 16px bold 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
-#science > h4 {
-    font: 18px 'nyt-franklin', helvetica, arial, sans-serif;
-    font-weight: bold;
-}
-
 .editors-pick > p {
     border-bottom: 1px solid #cccaca;
     padding-bottom: 10px;
@@ -197,10 +190,6 @@ button {
     margin-left: 0;
     font: 13px 'nyt-franklin', helvetica, arial, sans-serif;
     font-weight: bold;
-}
-
-#science button:hover {
-  background: #326891;
 }
 
 #free-articles {
@@ -252,7 +241,7 @@ button {
 }
 
 .div-img:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 #inflation {
@@ -384,8 +373,8 @@ button {
 }
 
 #order {
-  color: #999;
-  font: 11px 'nyt-franklin', helvetica, arial, sans-serif;
+    color: #999;
+    font: 11px 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
 .sub-link:hover {
@@ -405,6 +394,10 @@ button {
     background: #6288a5;
     border: solid #6288a5 1px;
     margin-right: 50px;
+}
+
+#science button:hover {
+    background: #326891;
 }
 
 #comment-link > button:hover {
@@ -430,6 +423,24 @@ button {
     font-weight: bold;
     border-top: solid #000 1px;
     padding-top: 20px;
+}
+
+.last-lists h3 {
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 1000;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
+.more > h3:hover,
+.more > h4:hover {
+    text-decoration: underline;
+}
+
+#science > h4 {
+    font: 18px 'nyt-franklin', helvetica, arial, sans-serif;
+    font-weight: bold;
 }
 
 .parent-div {
@@ -513,14 +524,6 @@ button {
 
 #lists-id {
     margin-left: 0;
-}
-
-.last-lists h3 {
-    text-transform: uppercase;
-    color: rgb(51, 51, 51);
-    font-size: 13px;
-    font-weight: 1000;
-    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
 #end-nav {
